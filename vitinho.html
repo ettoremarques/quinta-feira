@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
   </head>
   <body>
     <div class="content">
@@ -28,11 +29,20 @@
       ></audio>
       <audio class="sad" src="./sad.mp3" type="audio/mp3" loop></audio>
       <div class="wrapper">
-        <h1 class="question">Versões:</h1>
+        <h1 class="question">Hoje é quinta feira?</h1>
         <div class="buttons">
-          <a class="no" href="/vitinho.html"> Vitinho </a>
-          <a class="yes" href="/alex.html"> Alex </a>
+          <button class="no">NÃO</button>
+          <button class="yes">SIM</button>
         </div>
+      </div>
+      <h1 class="response"></h1>
+      <div class="fake-wrapper hidden">
+        <div class="spotlight one"></div>
+        <div class="spotlight two"></div>
+        <div class="spotlight three"></div>
+        <div class="spotlight four"></div>
+        <div class="thumb"></div>
+        <h1 class="response-fake"></h1>
       </div>
     </div>
   </body>

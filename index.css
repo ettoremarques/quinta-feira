@@ -46,6 +46,7 @@ body {
   margin-bottom: 3rem;
 }
 
+a,
 button {
   font-size: 2rem;
   padding: 1rem 2rem;
@@ -55,6 +56,13 @@ button {
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+a:last-child,
+button:last-child {
+  margin-right: 0;
 }
 
 .yes {
